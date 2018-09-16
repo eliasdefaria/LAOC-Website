@@ -1,0 +1,21 @@
+.newsletter-button{
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  text-align: center;
+  border-radius: 15px;
+  padding: 10px;
+}
+.counter{
+  font-size: 20em;
+  color: white;
+  margin: 0px;
+}
+
+.plastic-text{
+  font-size: 4em;
+  color: white;
+  margin: 0px;
+  width: 100%;
+}

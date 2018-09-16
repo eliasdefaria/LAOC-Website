@@ -1,0 +1,14 @@
+.nav-bar{
+  background-color: white;
+}
+
+.logo-wrapper{
+  width: 100px;
+  cursor: pointer;
+}
+
+.logo{
+  width: 80%;
+  height: auto;
+  outline: none;
+}
