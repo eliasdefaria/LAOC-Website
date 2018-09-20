@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 
@@ -9,7 +10,8 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent, SocialComponent } from './shared';
 import { HomeComponent } from './home/home.component';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
-import { CollapseModule, BsDropdownModule } from 'ngx-bootstrap';
+import { NewsletterRegisterComponent, DonateComponent } from './shared';
+import { MatSnackBarModule, MatDialogModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -18,16 +20,23 @@ import { CollapseModule, BsDropdownModule } from 'ngx-bootstrap';
     AboutComponent,
     HomeComponent,
     HeaderComponent,
-    SocialComponent
+    SocialComponent,
+    NewsletterRegisterComponent,
+    DonateComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     TooltipModule.forRoot(),
-    CollapseModule.forRoot(),
-    BsDropdownModule.forRoot()
+    MatSnackBarModule,
+    MatDialogModule
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
+  entryComponents: [
+    NewsletterRegisterComponent,
+    DonateComponent
+  ]
 })
-export class AppModule { }
+export class AppModule {}

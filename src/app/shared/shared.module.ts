@@ -11,6 +11,10 @@ import { SocialComponent } from './embeds/social/social.component';
     HeaderComponent,
     SocialComponent
   ],
-  declarations: [HeaderComponent, SocialComponent]
+  declarations: [
+    HeaderComponent,
+    SocialComponent
+  ]
+
 })
 export class SharedModule { }

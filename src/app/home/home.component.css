@@ -1,11 +1,26 @@
-.newsletter-button{
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+/*.newsletter-container{
+  -webkit-transform: translateY(-50%, -50%);
+  -ms-transform: translateY(-50%, -50%);
+  transform: translateY(-50%, -50%);
   position: absolute;
   text-align: center;
   border-radius: 15px;
   padding: 10px;
+}*/
+.vertical-center {
+  min-height: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+}
+.jumbotron{
+  background-color: rgba(0,0,0,0.1);
 }
 .counter{
   font-size: 20em;
@@ -18,4 +33,7 @@
   color: white;
   margin: 0px;
   width: 100%;
+}
+.btn-outline-primary{
+  color: white;
 }
