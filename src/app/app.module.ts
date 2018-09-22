@@ -10,9 +10,11 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent, SocialComponent } from './shared';
 import { HomeComponent } from './home/home.component';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
-import { NewsletterRegisterComponent, DonateComponent, ShirtComponent } from './shared';
+import { NewsletterRegisterComponent, DonateComponent, ShirtComponent, NsTriggerComponent } from './shared';
 import { MatSnackBarModule, MatDialogModule } from '@angular/material';
 import { ShopComponent } from './shop/shop.component';
+import { VolunteerComponent } from './volunteer/volunteer.component';
+import { MembershipComponent } from './membership/membership.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,10 @@ import { ShopComponent } from './shop/shop.component';
     NewsletterRegisterComponent,
     DonateComponent,
     ShopComponent,
-    ShirtComponent
+    ShirtComponent,
+    VolunteerComponent,
+    MembershipComponent,
+    NsTriggerComponent
   ],
   imports: [
     BrowserModule,
