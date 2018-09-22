@@ -12,3 +12,12 @@
   height: auto;
   outline: none;
 }
+
+.blue-border{
+  border: 1px solid #5bc0de;
+  border-radius: 10px;
+}
+.blue-border:hover{
+  background-color: #5bc0de;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}

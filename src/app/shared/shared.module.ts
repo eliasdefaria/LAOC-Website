@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { HeaderComponent } from './embeds/header/header.component';
 import { SocialComponent } from './embeds/social/social.component';
+import { ShirtComponent } from './embeds/shirt/shirt.component';
 
 @NgModule({
   imports: [
@@ -13,7 +14,8 @@ import { SocialComponent } from './embeds/social/social.component';
   ],
   declarations: [
     HeaderComponent,
-    SocialComponent
+    SocialComponent,
+    ShirtComponent
   ]
 
 })

@@ -16,6 +16,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  z-index: 999;
 }
 .icon-bar a {
   display: block;
@@ -26,9 +27,8 @@
   font-size: 20px;
 }
 
-/* Style the social media icons with color, if you want */
 .icon-bar a:hover {
-  background-color: #000;
+  background: #000;
 }
 
 .facebook {

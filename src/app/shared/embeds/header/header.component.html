@@ -2,21 +2,24 @@
   <div class="logo-wrapper">
     <img src="../assets/logo.png" class="logo" routerLink="/">
   </div>
-  <button class="navbar-toggler" type="button"
+  <button class="navbar-toggler blue-background" type="button"
           (click)="toggleNavbar()">
     <span class="navbar-toggler-icon"></span>
   </button>
   <div class="collapse navbar-collapse"
        [ngClass]="{ 'show': navbarOpen }">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
+      <li [ngClass]="{'nav-item blue-border': !thinWindow, 'nav-item': thinWindow}">
         <a class="nav-link pointer" (click)="openPopup()">Donate</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/about">About</a>
+        <a class="nav-link" (click)="toggleNavbar()" routerLink="/about">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" routerLink="/getinvolved">Get Involved</a>
+        <a class="nav-link" (click)="toggleNavbar()" routerLink="/getinvolved">Get Involved</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="toggleNavbar()" routerLink="/shop">Shop</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">

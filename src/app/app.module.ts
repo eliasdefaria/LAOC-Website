@@ -10,8 +10,9 @@ import { AppRoutingModule } from './/app-routing.module';
 import { HeaderComponent, SocialComponent } from './shared';
 import { HomeComponent } from './home/home.component';
 import { TooltipModule } from 'ngx-bootstrap/tooltip';
-import { NewsletterRegisterComponent, DonateComponent } from './shared';
+import { NewsletterRegisterComponent, DonateComponent, ShirtComponent } from './shared';
 import { MatSnackBarModule, MatDialogModule } from '@angular/material';
+import { ShopComponent } from './shop/shop.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { MatSnackBarModule, MatDialogModule } from '@angular/material';
     HeaderComponent,
     SocialComponent,
     NewsletterRegisterComponent,
-    DonateComponent
+    DonateComponent,
+    ShopComponent,
+    ShirtComponent
   ],
   imports: [
     BrowserModule,
@@ -36,7 +39,8 @@ import { MatSnackBarModule, MatDialogModule } from '@angular/material';
   bootstrap: [AppComponent],
   entryComponents: [
     NewsletterRegisterComponent,
-    DonateComponent
+    DonateComponent,
+    ShirtComponent
   ]
 })
 export class AppModule {}

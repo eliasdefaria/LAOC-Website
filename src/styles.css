@@ -10,3 +10,11 @@ video{
 .pointer{
   cursor: pointer;
 }
+
+.blue-background{
+  background-color: #5bc0de;
+}
+
+.white-text{
+  color: white;
+}
