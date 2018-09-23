@@ -15,6 +15,7 @@ import { MatSnackBarModule, MatDialogModule } from '@angular/material';
 import { ShopComponent } from './shop/shop.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { MembershipComponent } from './membership/membership.component';
+import { NsComponent } from './ns/ns.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { MembershipComponent } from './membership/membership.component';
     ShirtComponent,
     VolunteerComponent,
     MembershipComponent,
-    NsTriggerComponent
+    NsTriggerComponent,
+    NsComponent
   ],
   imports: [
     BrowserModule,

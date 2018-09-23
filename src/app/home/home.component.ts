@@ -27,7 +27,7 @@ export class HomeComponent implements OnInit {
      dialogRef.afterClosed().subscribe(
          data => {
            if(data){
-             alert("Thanks!");
+
            }
            else{
              //doesn't want notifications

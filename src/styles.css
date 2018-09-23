@@ -18,11 +18,44 @@ video{
 .white-text{
   color: white;
 }
+.blue-text{
+  color: rgb(27,55,101);
+}
 
 .vertical-center {
-  min-height: 80%;  /* Fallback for browsers do NOT support vh unit */
-  min-height: 80vh; /* These two lines are counted as one :-)       */
+  min-height: 83.7%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 83.7vh; /* These two lines are counted as one :-)       */
 
   display: flex;
   align-items: center;
+}
+
+.no-display{
+  display: none;
+}
+
+/******************************************
+        RESPONSIVE TYPOGRAPHY
+******************************************/
+
+html {
+  font-size: 1rem;
+}
+
+@include media-breakpoint-up(sm) {
+  html {
+    font-size: 1.2rem;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  html {
+    font-size: 1.4rem;
+  }
+}
+
+@include media-breakpoint-up(lg) {
+  html {
+    font-size: 1.6rem;
+  }
 }

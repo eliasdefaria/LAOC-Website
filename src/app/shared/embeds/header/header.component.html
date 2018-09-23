@@ -2,6 +2,9 @@
   <div class="logo-wrapper">
     <img src="../assets/logo.png" class="logo" routerLink="/">
   </div>
+  <div class="one-liner">
+    One Drop at a Time
+  </div>
   <button class="navbar-toggler blue-background" type="button"
           (click)="toggleNavbar()">
     <span class="navbar-toggler-icon"></span>
@@ -21,9 +24,12 @@
       <li class="nav-item">
         <a class="nav-link" (click)="toggleNavbar()" routerLink="/shop">Shop</a>
       </li>
+      <li class="nav-item">
+        <a class="nav-link" (click)="toggleNavbar()" routerLink="/ns">Our Newsletter</a>
+      </li>
     </ul>
-    <form class="form-inline my-2 my-lg-0">
+    <!--form class="form-inline my-2 my-lg-0">
       <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-    </form>
+    </form-->
   </div>
 </nav>

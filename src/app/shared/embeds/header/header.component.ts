@@ -26,7 +26,7 @@ export class HeaderComponent implements OnInit {
   toggleNavbar(){
     this.navbarOpen = !this.navbarOpen;
   }
-  
+
   openPopup(){
     const dialogConfig = new MatDialogConfig();
     dialogConfig.autoFocus = true;
@@ -39,6 +39,7 @@ export class HeaderComponent implements OnInit {
   onResize(event) {
     if(window.innerWidth < 992){
       this.thinWindow = true;
+      this.navbarOpen = false;
     }
     else{
       this.thinWindow = false;
