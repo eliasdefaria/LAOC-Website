@@ -10,11 +10,21 @@ export class AboutComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
+    if(window.innerWidth < 1200){
+      this.scrolled=true;
+    }
   }
 
   @HostListener("window:scroll", [])
     onWindowScroll() {
       this.scrolled = true;
+    }
+
+    @HostListener('window:resize', ['$event'])
+    onResize(event) {
+      if(window.innerWidth < 1200){
+        this.scrolled=true;
+      }
     }
 
 }

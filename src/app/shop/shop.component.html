@@ -1,13 +1,18 @@
-<div class="container-fluid jumbotron">
-  <h1 class="display-4">Donate $25 and we'll send you a shirt!</h1>
-  <p class="lead">Come with us to one of our upcoming events!</p>
-</div>
-<div class="vertical-center">
-  <div class="container">
-    <div class="card pointer mx-auto background-hover" style="width: 18rem;" (click)="openPopup()">
-      <img class="card-img-top" src="../../../assets/shirtFront.png" alt="Card image cap">
-      <div class="card-body">
-        <p class="card-text">Click to see the front and back!</p>
+<div class="container-fluid background-photo">
+  <div class="container jumbotron">
+    <h1 class="display-4 white-text">Donate $25 and we'll send you a shirt!</h1>
+    <p class="lead white-text">The donation minimum prices for our merchandise are listed below. Any donation to the Los Angeles Ocean Coalition will entitle you to claim a gift from us of any merch item listed at or below your donation value. In order to receive a shirt, <b>you must donate with PayPal</b>.</p>
+  </div>
+  <div class="vertical-center">
+    <div class="container">
+      <div class="card pointer mx-auto background-hover" style="width: 25rem;" (click)="openPopup()">
+        <img class="card-img-top" src="../../../assets/shirtFront.png" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">$25 minimum donation</h5>
+          <hr>
+          <p class="card-text">LA Ocean Coalition shirts made from 100% recycled plastics. The plastics are collected from waste management facilities throughout the eastern United States that are then shredded into pellets. These pellets are then melted down and extruded into yarn that is used to cut and sew the shirts. Learn more about the process and our retailer <a href="https://recoverbrands.com/">here</a>.</p>
+          <!--a  class="btn btn-info-outline btn-lg" href="javascript:;" (click)="openDonate()">Donate</a-->
+        </div>
       </div>
     </div>
   </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ShirtComponent } from '../shared';
+import { ShirtComponent, DonateComponent } from '../shared';
 import { MatDialog, MatDialogConfig } from '@angular/material';
 @Component({
   selector: 'app-shop',
@@ -9,7 +9,9 @@ import { MatDialog, MatDialogConfig } from '@angular/material';
 export class ShopComponent implements OnInit {
 
   constructor(
-    private popup: MatDialog
+    private shirtPopup: MatDialog,
+    private donatePopup: MatDialog
+
   ) { }
 
   ngOnInit() {
@@ -20,7 +22,15 @@ export class ShopComponent implements OnInit {
     dialogConfig.autoFocus = true;
     dialogConfig.disableClose = false;
 
-    const dialogRef = this.popup.open(ShirtComponent, dialogConfig);
+    const dialogRef = this.shirtPopup.open(ShirtComponent, dialogConfig);
   }
+
+  /*openDonate(){
+    const dialogConfig = new MatDialogConfig();
+    dialogConfig.autoFocus = true;
+    dialogConfig.disableClose = false;
+
+    const dialogRef = this.donatePopup.open(DonateComponent, dialogConfig);
+  }*/
 
 }
