@@ -1,7 +1,12 @@
 @import '~@angular/material/prebuilt-themes/indigo-pink.css';
+@import url("https://use.typekit.net/byr8jjz.css");
+
+
 
 body{
-  margin: 0px;
+  margin: 0;
+  font-family: gill-sans-nova;
+  padding: 0;
 }
 video{
   object-fit: cover;
@@ -17,6 +22,14 @@ video{
 .low-o-white-background{
   background-color: rgba(256,256,256,0.5);
   border: none;
+}
+.low-o-black-background{
+  background-color: rgba(0,0,0,0.5);
+  border: none;
+}
+.dark-blue-background{
+  background-color: rgb(27,55,101);
+  padding-bottom: 10px;
 }
 .white-text{
   color: white;

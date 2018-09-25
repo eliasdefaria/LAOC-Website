@@ -1,14 +1,20 @@
 <div class="jumbotron turtle-photo">
+  <div *ngIf="submitSuccess" class="alert alert-info alert-dismissible fade show" role="alert">
+    <strong>Thank you!</strong> You'll receive your first newsletter soon :)
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>
   <h1 class="display-4 white-text">Sign Up for our Newsletter</h1>
-  <form>
+  <form [formGroup]="nsForm" (ngSubmit)="submitInfo()">
     <div class="form-group">
       <label for="nameInput" class="white-text">Name</label>
-      <input type="text" class="form-control low-o-white-background" id="nameInput" placeholder="Name">
+      <input type="text" formControlName="name" class="form-control low-o-white-background" id="nameInput" placeholder="Name">
     </div>
     <div class="form-group">
       <label for="emailInput" class="white-text">Email address</label>
-      <input type="email" class="form-control low-o-white-background" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
+      <input type="email" formControlName="email" class="form-control low-o-white-background" id="emailInput" aria-describedby="emailHelp" placeholder="Enter email">
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="submit" class="btn btn-primary ml-auto" [disabled]="!nsForm.valid">Submit</button>
   </form>
 </div>

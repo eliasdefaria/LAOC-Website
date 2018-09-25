@@ -1,7 +1,4 @@
-.dark-blue-background{
-  background-color: rgb(27,55,101);
-  padding-bottom: 10px;
-}
+
 .image-wrapper{
   width: 90%;
   height: 90%;
@@ -25,9 +22,9 @@
   }
 
   40% {
-    -webkit-transform: translateY(-30px);
-    -ms-transform: translateY(-30px);
-    transform: translateY(-30px);
+    -webkit-transform: translateY(-15px);
+    -ms-transform: translateY(-15px);
+    transform: translateY(-15px);
   }
 
   60% {

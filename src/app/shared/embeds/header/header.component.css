@@ -3,22 +3,22 @@
 }
 
 .logo-wrapper{
-  width: 100px;
+  width: 150px;
   cursor: pointer;
   -webkit-transition : all .3s ease-out;
   -moz-transition : all .3s ease-out;
   -o-transition : all .3s ease-out;
   transition : all .3s ease-out;
-  margin-right: 1vw;
+  border-radius: 10px;
 }
 
 .logo-wrapper:hover{
-  background-color: #5bc0de;
+  background-color: rgb(91,192,222,0.3);
   transition: color .3s ease-in-out,background-color .3s ease-in-out,border-color .3s ease-in-out,box-shadow .3s ease-in-out;
 }
 
 .logo{
-  width: 101%;
+  width: 100%;
   height: auto;
   outline: none;
 }
@@ -39,4 +39,6 @@
 .one-liner{
   color: #5bc0de;
   display: inline;
+  margin-left:1vw;
+  font-size: 25px;
 }
