@@ -2,7 +2,7 @@
   width: 100%;
   height: 100%;
   background-color: black; /* fallback color */
-  background-image: url("../../assets/horizon.jpg");
+  background-image: url("../../assets/dock.JPG");
   background-position: center;
   background-size: cover;
   z-index: 990;

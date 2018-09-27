@@ -11,14 +11,8 @@ import { NsTriggerComponent } from './embeds/ns-trigger/ns-trigger.component';
     CommonModule
   ],
   exports: [
-    HeaderComponent,
-    SocialComponent
   ],
   declarations: [
-    HeaderComponent,
-    SocialComponent,
-    ShirtComponent,
-    NsTriggerComponent
   ]
 
 })
