@@ -16,7 +16,7 @@ export class ShopComponent implements OnInit {
 
   ngOnInit() {
     if(window.innerWidth < 992){
-      this.mobile = true;
+      this.mobile = true;s
     }
   }
 
