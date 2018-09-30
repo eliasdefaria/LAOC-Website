@@ -5,7 +5,7 @@
   </div>
   <div class="vertical-center">
     <div class="container">
-      <div class="card pointer mx-auto background-hover" style="width: 25rem;" (click)="openPopup()">
+      <div class="card pointer mx-auto background-hover" [style.width]="getWidth()" (click)="openPopup()">
         <img class="card-img-top" src="../../../assets/shirtFront.png" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">$25 minimum donation</h5>

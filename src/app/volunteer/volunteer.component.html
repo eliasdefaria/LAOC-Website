@@ -2,8 +2,10 @@
   <div class="container jumbotron">
     <h1 class="display-4 white-text">Volunteer with us</h1>
     <p class="lead white-text">Lend a helping hand and attend one of our beach cleanups hosted by various non-profits in the LA area. Everyone of us can make a difference in our community while also having a fun beach day. Stick around after the cleanup to relax and play with other students just remember to dispose of waste in the proper containers. Check out the calendar below and sign up for the upcoming cleanup.</p>
+    <hr>
+    <a class="btn btn-info pointer white-text inner" href="https://docs.google.com/forms/d/10G2uO4AviBWagWPpmLffq4Fh_ehdLSLEvJAI7zwZ3sc/edit" target="_blank">Sign up for our next beach cleanup</a>
   </div>
-  <div class="vertical-center">
+  <div *ngIf="!mobile" class="vertical-center">
     <div class="container text-center">
       <div class="row height-manip">
         <iframe src="https://calendar.google.com/calendar/b/3/embed?title=Los%20Angeles%20Ocean%20Coalition&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=laoceancoalition%40gmail.com&amp;color=%231B887A&amp;ctz=America%2FLos_Angeles" style="border-width:0" class="resp-iframe" frameborder="0" scrolling="no"></iframe>

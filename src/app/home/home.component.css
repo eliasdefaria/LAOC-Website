@@ -11,6 +11,8 @@
 
 .jumbotron{
   background-color: rgba(0,0,0,0.1);
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .counter{
   font-size: 20em;
@@ -19,7 +21,7 @@
 }
 
 .plastic-text{
-  font-size: 4em;
+  font-size: 6vw;
   color: white;
   margin: 0px;
   width: 100%;

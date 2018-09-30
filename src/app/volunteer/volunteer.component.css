@@ -17,3 +17,6 @@
 .height-manip{
   min-height: 500px;
 }
+.inner{
+  border-radius: 25px;
+}
