@@ -25,3 +25,7 @@
 .jumbotron{
   background-color: rgba(0,0,0,0.2);
 }
+.display-4{
+  font-size: 5vw;
+  font-weight: 600;
+}

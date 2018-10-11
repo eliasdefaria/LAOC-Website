@@ -12,6 +12,8 @@ export class NewsletterRegisterComponent implements OnInit {
   isSubmitting: boolean = false;
   nsForm: FormGroup;
   submitSuccess: boolean = false;
+  nameInput: string;
+  emailInput: string;
 
   constructor(
     @Inject(MAT_DIALOG_DATA) data,
@@ -34,9 +36,10 @@ export class NewsletterRegisterComponent implements OnInit {
     this.apiService.post("/",info).subscribe( data=> {
       this.isSubmitting = false;
       this.submitSuccess = true;
+      this.nameInput = null;
+      this.emailInput = null;
     },
     err=> {
-      console.log("FUCK");
       this.isSubmitting = false;
     })
   }
