@@ -41,3 +41,17 @@
   display: inline;
   font-size: 3vw;
 }
+.high-z{
+  z-index: 999;
+}
+
+.hover-effect{
+  -webkit-transition : all .3s ease-out;
+  -moz-transition : all .3s ease-out;
+  -o-transition : all .3s ease-out;
+  transition : all .3s ease-out;
+}
+.hover-effect:hover{
+  background-color: rgb(0,0,0,0.2);
+  transition: color .2s ease-in-out,background-color .2s ease-in-out,border-color .2s ease-in-out,box-shadow .2s ease-in-out;
+}

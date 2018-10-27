@@ -16,7 +16,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
-  z-index: 999;
+  z-index: 998;
 }
 .icon-bar-mobile {
   position: fixed;
@@ -35,7 +35,7 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: row;
   flex-direction: row;
-  z-index: 999;
+  z-index: 998;
 }
 .icon-bar a {
   display: block;

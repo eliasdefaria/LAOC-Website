@@ -13,6 +13,11 @@
 	-webkit-animation: bounce 1s infinite;
 	animation: bounce 1s infinite;
 }
+.card-img-top {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {

@@ -50,6 +50,10 @@ video{
   display: none;
 }
 
+.lead{
+  text-align: justify;
+}
+
 /******************************************
         RESPONSIVE TYPOGRAPHY
 ******************************************/
