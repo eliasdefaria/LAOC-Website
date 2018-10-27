@@ -53,6 +53,9 @@ video{
 .lead{
   text-align: justify;
 }
+.text-indent{
+  text-indent: 5%;
+}
 
 /******************************************
         RESPONSIVE TYPOGRAPHY

@@ -16,6 +16,7 @@ import { MembershipComponent } from './membership/membership.component';
 import { NsComponent } from './ns/ns.component';
 import { ApiService } from './shared';
 import { HttpClientModule } from '@angular/common/http';
+import { PppComponent } from './ppp/ppp.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { HttpClientModule } from '@angular/common/http';
     VolunteerComponent,
     MembershipComponent,
     NsTriggerComponent,
-    NsComponent
+    NsComponent,
+    PppComponent
   ],
   imports: [
     BrowserModule,

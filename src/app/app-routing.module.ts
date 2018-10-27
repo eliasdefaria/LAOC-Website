@@ -7,6 +7,7 @@ import { ShopComponent } from './shop/shop.component';
 import { VolunteerComponent } from './volunteer/volunteer.component';
 import { MembershipComponent } from './membership/membership.component';
 import { NsComponent } from './ns/ns.component';
+import { PppComponent } from './ppp/ppp.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }, //path for landing page route
@@ -14,7 +15,8 @@ const routes: Routes = [
   { path: 'shop', component: ShopComponent }, //path for shop component
   { path: 'volunteer', component: VolunteerComponent}, //path for volunteer component
   { path: 'membership', component: MembershipComponent}, //path for membership component
-  { path: 'ns', component: NsComponent} //path for newsletter component
+  { path: 'ns', component: NsComponent}, //path for newsletter component
+  { path: 'ucla_ppp', component: PppComponent}
 ];
 
 @NgModule({
