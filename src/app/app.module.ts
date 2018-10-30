@@ -17,6 +17,7 @@ import { NsComponent } from './ns/ns.component';
 import { ApiService } from './shared';
 import { HttpClientModule } from '@angular/common/http';
 import { PppComponent } from './ppp/ppp.component';
+import { CountoModule }  from 'angular2-counto';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,8 @@ import { PppComponent } from './ppp/ppp.component';
     MatDialogModule,
     FormsModule,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    CountoModule
   ],
   providers: [
     ApiService

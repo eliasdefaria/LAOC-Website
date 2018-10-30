@@ -2,7 +2,7 @@
   <div class="logo-wrapper">
     <img src="../assets/laoclogo.png" class="logo" routerLink="/">
   </div>
-  <div class="one-liner">
+  <div class="one-liner" *ngIf="!thinWindow">
     One Drop at a Time
   </div>
   <button class="navbar-toggler blue-background" type="button"

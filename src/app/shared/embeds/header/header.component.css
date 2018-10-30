@@ -39,7 +39,7 @@
 .one-liner{
   color: #5bc0de;
   display: inline;
-  font-size: 3vw;
+  font-size: 2em;
 }
 .high-z{
   z-index: 999;
