@@ -1,0 +1,9 @@
+.w-30{
+  width: 20rem;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 18rem;
+    object-fit: cover;
+}
