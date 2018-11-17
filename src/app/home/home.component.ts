@@ -8,6 +8,7 @@ import { NewsletterRegisterComponent } from '../shared';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
+  counto: any;
 
   constructor(
     private popup: MatDialog
