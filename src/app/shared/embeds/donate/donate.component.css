@@ -6,6 +6,7 @@
   background-position: center;
   background-size: cover;
   z-index: 990;
+  margin-bottom: 0;
 }
 .donate-title{
   font-size: 6vw;

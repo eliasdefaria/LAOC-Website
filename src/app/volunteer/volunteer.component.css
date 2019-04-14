@@ -19,4 +19,84 @@
 }
 .inner{
   border-radius: 25px;
+  float:right;
+}
+.breadcrumb {
+   font-weight: 300;
+   position: relative;
+}
+.today-text{
+  color: #555;
+  margin: auto;
+  font-weight: 500;
+}
+.date-title {
+   font-size: 20px;
+   margin: 7px 0 0 0;
+   letter-spacing: 1px;
+   font-weight: 600;
+   text-shadow: 0px 0px 5px  rgba(#000, 0.15);
+
+}
+.today-box {
+   background: linear-gradient(to left, #5bc0de, rgb(27,55,101, 0.7)), #5bc0de;
+   color: #FFF;
+   padding: 37px 40px;
+   position: relative;
+   box-shadow: 0px 0px 30px -9px #485fed;
+   margin-bottom: 15px;
+   border-radius: 0.3em;
+}
+.upcoming-events{
+  background: linear-gradient(to left, #5bc0de, rgb(27,55,101, 0.7)), #5bc0de;
+  color: #FFF;
+  padding: 37px 40px;
+  position: relative;
+  box-shadow: 0px 0px 30px -9px #485fed;
+  margin-bottom: 50px;
+  border-radius: 0.3em;
+}
+
+.event__point {
+   margin: 0;
+   color: #555;
+   font-size: 15px;
+   font-weight: 800;
+   letter-spacing: 1px;
+}
+.event__duration {
+   position: absolute;
+   top: 5px;
+   right: 0;
+   color: #999;
+   font-size: 10px;
+   font-weight: 800;
+   font-style: italic;
+}
+.event__description {
+   margin-top: 10px;
+   color: #fff;
+   font-size: 18px;
+   font-weight: 500;
+
+}
+.blue-background{
+  background-color: #5bc0de;
+}
+.dark-blue-background{
+  background-color: rgb(27,55,101);
+  padding-bottom: 10px;
+}
+i {
+   font-size: 24px;
+   font-weight: 100;
+   position: absolute;
+   left: 0;
+   top: -4px;
+}
+.events-wrapper {
+   margin-bottom: 30px;
+}
+.titles{
+  font-weight: 600;
 }

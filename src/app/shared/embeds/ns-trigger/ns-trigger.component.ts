@@ -11,7 +11,7 @@ export class NsTriggerComponent implements OnInit {
 
   constructor(
     private popup: MatDialog
-  ) { }
+  ) {}
 
   ngOnInit() {
   }
